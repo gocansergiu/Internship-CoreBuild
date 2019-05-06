@@ -1,0 +1,23 @@
+Marvel superheroes wars
+-----------------------
+Basic steps
+-----------------------
+1)Open Command Prompt.
+2)Make sure you are in the right directory and the XML files are in the same file with marvel.jar.
+3)Write java -jar marvel.jar
+
+How it works
+-----------------------
+After you open the application, it will automatically appear all the Characters(nr,name,attack,hp,isvillain and description) 
+and Planets(nr,name,modifiers and description).
+After the details the app will ask for an integer input which is the nr(ID) of a planet, shown in description.
+The next step will ask you :Do you want to assemble Avengers?, if you press 1 (for yes) the avengers 
+team will start assemble by pressing the ID number(nr) of the super-heroes and once you got the desired team, 
+you press 0 to finish the assembling, if you press 0(for no) you will pick just a super-hero
+and the fight will be 1v1 .
+The last step is picking the villain by pressing the nr(id) of the villain you wish to fight.
+After that, the details of the fight will appear ( attack and health after the planet modifiers, and the names).
+The fight begins with the villain hitting the hero and vice-versa, until one of them reaches 0 or negative health.
+
+
+
